@@ -1,3 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+
+<app-header></app-header>
+<br>
+<app-board-area [playerOneChoice]="choice"
+[computerChoice]="computersChoice"></app-board-area>
+<br>
+<app-player-choice-area
+  (playerChose)="showChoice($event)"
+></app-player-choice-area>
+<app-score-area
+  [playerOneScore]="p1score"
+  [computerScore]="compScore"
+></app-score-area>

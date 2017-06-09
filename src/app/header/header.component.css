@@ -1,0 +1,14 @@
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import "https://fonts.googleapis.com/css?family=Material+Icons";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,300";
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade|Creepster|Ewert|Monoton';
+
+
+:host {
+  display: flex;
+  flex: 1;
+}
+span{
+  font-family:"Monoton";
+}
