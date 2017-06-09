@@ -1,3 +1,7 @@
+<img width="1275" alt="rps ang" src="https://user-images.githubusercontent.com/10606510/26981360-d2af9baa-4d6f-11e7-9c77-2a238a9df2de.png">
+
+Basic game of Rock Paper Scissors using Angular 4.
+
 # AngRps
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
