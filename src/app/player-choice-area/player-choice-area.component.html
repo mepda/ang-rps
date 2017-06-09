@@ -1,23 +1,20 @@
 <div class="content" fxLayout="row" fxLayout.sm="column" fxLayoutGap="16px">
 
-  <md-card fxFlex="50">
+  <md-card fxFlex="50" (click)="onChoice('rock')">
     <md-card-content>
     <img
-      (click)="onChoice('rock')"
       src="../assets/rock.jpg"/>
     </md-card-content>
   </md-card>
-  <md-card fxFlex="50">
+  <md-card fxFlex="50" (click)="onChoice('paper')">
     <md-card-content>
     <img
-      (click)="onChoice('paper')"
       src="../assets/paper.jpg"/>
     </md-card-content>
   </md-card>
-  <md-card fxFlex="50">
+  <md-card fxFlex="50" (click)="onChoice('scissors')">
     <md-card-content>
     <img
-      (click)="onChoice('scissors')"
       src="../assets/scissors.ico"/>
     </md-card-content>
   </md-card>
